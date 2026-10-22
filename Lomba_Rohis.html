@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengumuman Lomba Rohis SMKN 1 Pekanbaru</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Poppins & Amiri -->
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        rohisGreenDark: '#0f2e22',
+                        rohisGreen: '#1b4332',
+                        rohisEmerald: '#2d6a4f',
+                        rohisMint: '#d8f3dc',
+                        rohisLight: '#f4f9f4',
+                        rohisGold: '#d4af37',
+                    },
+                    fontFamily: {
+                        poppins: ['Poppins', 'sans-serif'],
+                        amiri: ['Amiri', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #f4f9f4 0%, #e2f0e2 100%);
+            min-height: 100vh;
+            color: #1b4332;
+            overflow-x: hidden;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-10px) rotate(2deg); }
+        }
+        .animate-float-slow { animation: float 4s ease-in-out infinite; }
+        .animate-float-delayed { animation: float 5s ease-in-out infinite 2s; }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.92);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(216, 243, 220, 0.8);
+            box-shadow: 0 10px 30px rgba(27, 67, 50, 0.08);
+        }
+    </style>
+</head>
+<body class="relative flex flex-col min-h-screen">
+
+    <!-- Header / Navigasi Atas -->
+    <header class="w-full bg-rohisGreen text-white py-4 px-4 shadow-md sticky top-0 z-50">
+        <div class="max-w-4xl mx-auto flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center border border-rohisGold">
+                    <svg class="w-6 h-6 text-rohisGold" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                    </svg>
+                </div>
+                <div>
+                    <h1 class="text-xs sm:text-sm font-semibold tracking-wider text-rohisGold uppercase">Rohis SMKN 1 Pekanbaru</h1>
+                    <p class="text-xs text-emerald-200">Portal Pengumuman Resmi</p>
+                </div>
+            </div>
+            <div class="text-xs bg-emerald-800/80 px-3 py-1.5 rounded-full border border-rohisGold/40 font-medium text-emerald-100 flex items-center gap-1.5">
+                <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                Tahun 2026
+            </div>
+        </div>
+    </header>
+
+    <!-- Konten Utama -->
+    <main class="flex-grow max-w-4xl w-full mx-auto p-4 sm:p-6 my-auto space-y-6">
+
+        <!-- HALAMAN BERANDA (HOME VIEW) -->
+        <div id="home-view" class="space-y-6 transition-all duration-300">
+            <div class="relative glass-card rounded-3xl p-6 sm:p-10 text-center overflow-hidden border-2 border-rohisGold shadow-lg">
+                <!-- Hiasan Lentera -->
+                <div class="absolute -top-3 left-4 sm:left-8 animate-float-slow hidden sm:block text-rohisGold">
+                    <svg class="w-12 h-16" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12,2A1,1 0 0,1 13,3V4.08A7,7 0 0,1 18,11V16L20,19V20H4V19L6,16V11A7,7 0 0,1 11,4.08V3A1,1 0 0,1 12,2M12,6A5,5 0 0,0 7,11V15H17V11A5,5 0 0,0 12,6M11,18H13V22H11V18Z"/>
+                    </svg>
+                </div>
+                <div class="absolute -top-3 right-4 sm:right-8 animate-float-delayed hidden sm:block text-rohisGold">
+                    <svg class="w-12 h-16" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12,2A1,1 0 0,1 13,3V4.08A7,7 0 0,1 18,11V16L20,19V20H4V19L6,16V11A7,7 0 0,1 11,4.08V3A1,1 0 0,1 12,2M12,6A5,5 0 0,0 7,11V15H17V11A5,5 0 0,0 12,6M11,18H13V22H11V18Z"/>
+                    </svg>
+                </div>
+
+                <p class="text-xs sm:text-sm font-semibold text-rohisEmerald uppercase tracking-widest mb-2">
+                    "Tingkatkan iman, raih prestasi, perkuat ukhuwah" ♡
+                </p>
+
+                <h2 class="text-3xl sm:text-5xl font-extrabold font-amiri text-rohisGreenDark my-4">
+                    Lomba Rohis SMKN 1 Pekanbaru
+                </h2>
+
+                <p class="text-sm sm:text-base text-rohisEmerald max-w-lg mx-auto font-medium mb-6">
+                    Tunjukkan Potensi Terbaikmu Dalam Syiar Islam. Silakan akses menu di bawah ini untuk mengecek hasil pengumuman kelolosan babak final lomba Adzan.
+                </p>
+
+                <!-- Tombol Menu di Tengah -->
+                <div class="pt-4 flex justify-center">
+                    <button onclick="goToAnnouncement()" class="bg-gradient-to-r from-rohisEmerald to-rohisGreen text-white font-bold px-6 sm:px-8 py-4 rounded-2xl shadow-lg border-2 border-rohisGold hover:scale-105 transition transform flex items-center gap-3 text-sm sm:text-lg">
+                        <span>📢 Cek Hasil Lomba Adzan (Babak Final)</span>
+                        <svg class="w-5 h-5 text-rohisGold" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div class="glass-card p-5 rounded-2xl border border-emerald-200">
+                    <div class="flex items-center gap-3 mb-2">
+                        <span class="text-2xl">🏆</span>
+                        <h3 class="font-bold text-rohisGreenDark">Babak Final Adzan</h3>
+                    </div>
+                    <p class="text-xs text-rohisEmerald leading-relaxed">
+                        Seleksi ketat telah dilakukan. Sebanyak 7 peserta terbaik terpilih untuk melaju ke babak final memperebutkan juara pertama.
+                    </p>
+                </div>
+                <div class="glass-card p-5 rounded-2xl border border-emerald-200">
+                    <div class="flex items-center gap-3 mb-2">
+                        <span class="text-2xl">📅</span>
+                        <h3 class="font-bold text-rohisGreenDark">Jadwal Pelaksanaan</h3>
+                    </div>
+                    <p class="text-xs text-rohisEmerald leading-relaxed">
+                        Info babak final adzan akan diinfokan kembali tanggal pelaksanaan lomba final adzan.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- HALAMAN PENGUMUMAN & CEK HASIL (ANNOUNCEMENT VIEW) -->
+        <div id="announcement-view" class="hidden space-y-6 transition-all duration-300">
+            <div class="flex items-center justify-between">
+                <button onclick="goBackHome()" class="bg-rohisMint text-rohisGreen hover:bg-emerald-200 px-4 py-2 rounded-xl font-semibold text-xs flex items-center gap-2 border border-emerald-300 transition">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"></path>
+                    </svg>
+                    Kembali ke Beranda
+                </button>
+                <span class="text-xs font-bold text-rohisEmerald bg-emerald-100 px-3 py-1.5 rounded-lg border border-emerald-200">
+                    Babak Final Adzan
+                </span>
+            </div>
+
+            <div class="glass-card rounded-3xl p-6 sm:p-8 text-center border-2 border-rohisGold shadow-lg">
+                <h2 class="text-2xl sm:text-3xl font-extrabold font-amiri text-rohisGreenDark mb-2">
+                    Hasil Lomba Adzan yang lolos ke babak final
+                </h2>
+                <p class="text-xs sm:text-sm text-rohisEmerald max-w-md mx-auto mb-6">
+                    Ketik nama kamu di bawah ini untuk mengecek status kelolosan ke babak final.
+                </p>
+
+                <!-- Fitur Input Cek Hasil dengan Datalist -->
+                <div class="max-w-md mx-auto flex flex-col sm:flex-row gap-2">
+                    <input type="text" id="search-input" list="participants-list" placeholder="Ketik Nama Peserta..." class="flex-grow px-4 py-3 rounded-xl border border-emerald-300 focus:outline-none focus:ring-2 focus:ring-rohisEmerald text-sm bg-white/90">
+                    <datalist id="participants-list">
+                        <!-- Diisi via JS -->
+                    </datalist>
+                    <button onclick="checkResult()" class="bg-rohisGreen hover:bg-rohisGreenDark text-white font-bold px-6 py-3 rounded-xl shadow transition text-sm">
+                        Cek Hasil
+                    </button>
+                </div>
+                <p class="text-[11px] text-gray-500 mt-2">Contoh: <em>Zaky Raditya</em> atau <em>Yudha Septiansyah</em></p>
+            </div>
+
+            <!-- Area Hasil Pencarian -->
+            <div id="result-container" class="hidden">
+                <!-- Hasil akan dirender disini via JS -->
+            </div>
+
+            <div class="bg-amber-50 border border-amber-300 rounded-2xl p-4 sm:p-5 text-amber-900 text-xs sm:text-sm">
+                <span class="font-bold block mb-1">📌 Catatan Penting untuk Finalis:</span>
+                Info babak final adzan akan diinfokan kembali tanggal pelaksanaan lomba final adzan.
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="w-full bg-rohisGreenDark text-emerald-200 py-6 mt-10 text-center text-xs border-t border-emerald-900">
+        <div class="max-w-4xl mx-auto px-4 space-y-1">
+            <p class="font-semibold text-white">&copy; 2026 Rohis SMKN 1 Pekanbaru</p>
+            <p class="text-emerald-400">Bersama dalam kebaikan, menuju ridha Ilahi ❤️</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript Interaktif -->
+    <script>
+        // Data 13 Peserta Lomba Adzan
+        const participants = [
+            { name: "Yudha Septiansyah", kelas: "XI BDP 2", qualified: false },
+            { name: "Akhdan Tsani Iska", kelas: "XI BDP 1", qualified: false },
+            { name: "Dery Septena", kelas: "XI AKL 2", qualified: false },
+            { name: "Zaky Raditya", kelas: "XI TJKT 2", qualified: true },
+            { name: "M.Rafael", kelas: "X MPLB 2", qualified: true },
+            { name: "Yuda Aditiya", kelas: "XI AKL 2", qualified: true },
+            { name: "Rizky Saputra", kelas: "XI MPLB 2", qualified: true },
+            { name: "Rasya Maulana Irsad", kelas: "XI TJKT 2", qualified: true },
+            { name: "Evan Kurnia Iqbal", kelas: "X PH 1", qualified: false },
+            { name: "M.Syafiq Tagore", kelas: "XI TJKT 2", qualified: true },
+            { name: "Naufal Afkar Dwi Putra", kelas: "X MPLB 1", qualified: false },
+            { name: "Amar", kelas: "X MPLB 3", qualified: false },
+            { name: "Rafi Khalifatullah", kelas: "X TJKT 1", qualified: true }
+        ];
+
+        // Populate Datalist
+        const datalist = document.getElementById('participants-list');
+        participants.forEach(p => {
+            const option = document.createElement('option');
+            option.value = p.name;
+            datalist.appendChild(option);
+        });
+
+        function goToAnnouncement() {
+            document.getElementById('home-view').classList.add('hidden');
+            document.getElementById('announcement-view').classList.remove('hidden');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function goBackHome() {
+            document.getElementById('announcement-view').classList.add('hidden');
+            document.getElementById('home-view').classList.remove('hidden');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function checkResult() {
+            const query = document.getElementById('search-input').value.trim().toLowerCase();
+            const resultContainer = document.getElementById('result-container');
+
+            if (!query) {
+                resultContainer.innerHTML = `
+                    <div class="glass-card rounded-2xl p-4 text-center text-amber-700 text-xs sm:text-sm border border-amber-300">
+                        ⚠️ Ketik nama peserta terlebih dahulu untuk melakukan pengecekan.
+                    </div>
+                `;
+                resultContainer.classList.remove('hidden');
+                return;
+            }
+
+            // Cari data peserta berdasarkan nama
+            const found = participants.find(p => p.name.toLowerCase() === query);
+
+            if (found) {
+                if (found.qualified) {
+                    // Jika Lolos Final
+                    resultContainer.innerHTML = `
+                        <div class="glass-card rounded-3xl p-6 sm:p-8 text-center border-2 border-emerald-400 bg-emerald-50/95 shadow-xl space-y-4">
+                            <div class="w-16 h-16 bg-emerald-500 text-white rounded-full flex items-center justify-center mx-auto text-3xl shadow-lg">
+                                🎉
+                            </div>
+                            <span class="inline-block bg-emerald-200 text-rohisGreen font-bold text-xs px-3 py-1.5 rounded-full">
+                                SELAMAT! ANDA LOLOS KE BABAK FINAL ✅
+                            </span>
+                            <div>
+                                <h3 class="text-2xl sm:text-3xl font-bold text-rohisGreenDark">${found.name}</h3>
+                                <p class="text-xs sm:text-sm font-semibold text-rohisEmerald mt-1">Kelas: ${found.kelas}</p>
+                            </div>
+                            <div class="bg-white/80 border border-emerald-200 rounded-2xl p-4 text-xs sm:text-sm text-rohisGreenDark leading-relaxed text-left">
+                                <span class="font-bold block mb-1 text-rohisEmerald">💡 Motivasi untuk Finalis:</span>
+                                "Alhamdulillah! Selamat kepada Ananda atas kelolosannya ke Babak Final. Pertahankan semangat, persiapkan penampilan terbaikmu, dan jadikan ikhtiar ini sebagai wujud syiar Islam yang membanggakan!"
+                            </div>
+                        </div>
+                    `;
+                } else {
+                    // Jika Belum Lolos
+                    resultContainer.innerHTML = `
+                        <div class="glass-card rounded-3xl p-6 sm:p-8 text-center border-2 border-amber-300 bg-amber-50/95 shadow-xl space-y-4">
+                            <div class="w-16 h-16 bg-amber-200 text-amber-800 rounded-full flex items-center justify-center mx-auto text-2xl shadow-md">
+                                🌱
+                            </div>
+                            <span class="inline-block bg-amber-200 text-amber-900 font-bold text-xs px-3 py-1.5 rounded-full">
+                                MOHON MAAF, BELUM LOLOS
+                            </span>
+                            <div>
+                                <h3 class="text-2xl sm:text-3xl font-bold text-gray-800">${found.name}</h3>
+                                <p class="text-xs sm:text-sm font-semibold text-gray-600 mt-1">Kelas: ${found.kelas}</p>
+                            </div>
+                            <div class="bg-white/80 border border-amber-200 rounded-2xl p-4 text-xs sm:text-sm text-amber-900 leading-relaxed text-left">
+                                <span class="font-bold block mb-1 text-amber-800">💡 Motivasi Semangat:</span>
+                                "Mohon Maaf, Belum Lolos. Jangan berkecil hati! Keikutsertaanmu sudah merupakan langkah hebat dalam menunjukkan potensi terbaik dalam syiar Islam. Tetap semangat, terus berlatih, dan jadikan pengalaman ini batu loncatan untuk prestasi berikutnya!"
+                            </div>
+                        </div>
+                    `;
+                }
+            } else {
+                resultContainer.innerHTML = `
+                    <div class="glass-card rounded-2xl p-6 text-center border-2 border-rose-300 bg-rose-50/90 shadow-md space-y-2">
+                        <div class="w-14 h-14 bg-rose-200 text-rose-700 rounded-full flex items-center justify-center mx-auto text-xl">
+                            ❌
+                        </div>
+                        <h3 class="text-lg font-bold text-rose-900">Nama Tidak Ditemukan</h3>
+                        <p class="text-xs sm:text-sm text-rose-700 max-w-sm mx-auto">
+                            Nama "${query}" tidak terdaftar dalam daftar peserta Lomba Adzan Rohis SMKN 1 Pekanbaru. Periksa kembali ejaan nama kamu.
+                        </p>
+                    </div>
+                `;
+            }
+
+            resultContainer.classList.remove('hidden');
+        }
+
+        // Jalankan pencarian otomatis saat tekan Enter di input
+        document.getElementById('search-input').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                checkResult();
+            }
+        });
+    </script>
+
+</body>
+</html>
+```
